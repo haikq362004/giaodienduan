@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trường đại học hải phòng</title>
+    <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style/info.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="boder">
+        <div class="header">
+            <div class="logo">
+                <div class="box">
+                    <a href="welcome.html"><img src="assets/images/logo.png" width="80" height="80"></a>
+                    <span style="font-size: 30px;">HPUni</span>
+                </div>
+            </div>
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Tìm kiếm">
+            </div>
+            <div class="info">
+                <button>
+                    <i class="fa-regular fa-bell" style="font-size: 40px; color: #7082D6;"></i>
+                </button>
+                <button>
+                    <i class="fa-solid fa-circle-user" style="font-size: 40px; color: #7082D6"></i>
+                </button>
+                <span>Nguyễn Sĩ Hải</span>
+            </div>
+        </div>
+
+        <div class="banner">
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li id="home"><i class="fa-solid fa-house"></i><a href="welcome.html">Thông tin sinh viên</a>
+                        </li>
+                        <!-- <li ><i class="fa-solid fa-address-card"></i><a href="info.html">Thông tin sinh viên
+                            </a></li> -->
+                        <!-- <li><i class="fa-regular fa-calendar-days"></i><a href="timetable.html">Thời khoá biểu</a></li> -->
+                        <li><i class="fa-solid fa-money-check-dollar"></i><a href="tuition.html">Học phí</a></li>
+                        <li><i class="fa-solid fa-graduation-cap"></i><a href="learn_status.html">Tình trạng học tập</a>
+                        </li>
+                        <!-- <li><i class="fa-brands fa-leanpub"></i><a href="teacher.html">Giáo viên bộ môn</a></li> -->
+                        <!-- <li><i class="fa-solid fa-phone"></i><a href="hotline.html">Giải đáp thắc mắc</a></li> -->
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="infomation">
+            <h1>Thông tin sinh viên</h1>
+            <div class="info_student">
+                <table>
+                    <tr>
+                        <td>Mã sinh viên:</td>
+                        <td id="student_id" style="padding-left: 100px;"></td>
+                    </tr>
+                    <tr>
+                        <td>Họ và tên:</td>
+                        <td id="student_name" style="padding-left: 100px;"></td>
+                    </tr>
+                    <tr>
+                        <td>Ngày sinh:</td>
+                        <td id="student_dob" style="padding-left: 100px;"></td>
+                    </tr>
+                    <tr>
+                        <td>Giới tính:</td>
+                        <td id="student_gender" style="padding-left: 100px;"></td>
+                    </tr>
+                    <tr>
+                        <td>Điện thoại:</td>
+                        <td id="student_phone" style="padding-left: 100px;"></td>
+                    </tr>
+                    <tr>
+                        <td>Số CMND:</td>
+                        <td id="student_idcard" style="padding-left: 100px;"></td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td id="student_email" style="padding-left: 100px;"></td>
+                    </tr>
+                    <tr>
+                        <td>Nơi sinh:</td>
+                        <td id="student_birthplace" style="padding-left: 100px;"></td>
+                    </tr>
+                    <tr>
+                        <td>Dân tộc:</td>
+                        <td id="student_ethnicity" style="padding-left: 100px;"></td>
+                    </tr>
+                    <tr>
+                        <td>Hiện diện:</td>
+                        <td id="student_presence" style="padding-left: 100px;"></td>
+                    </tr>
+                    <tr>
+                        <td>Hộ khẩu:</td>
+                        <td id="student_household" style="padding-left: 100px;"></td>
+                    </tr>
+                </table>
+            </div>
+
+            <br>
+            <h1>Thông tin khóa học</h1>
+            <div class="info_learn">
+                <table>
+                    <tr>
+                        <td>Lớp:</td>
+                        <td id="class_name" style="padding-left: 100px;">CNTT4.K23</td>
+                    </tr>
+                    <tr>
+                        <td>Ngành:</td>
+                        <td id="major" style="padding-left: 100px;">Công nghệ thông tin</td>
+                    </tr>
+                    <tr>
+                        <td>Chuyên ngành:</td>
+                        <td id="specialization" style="padding-left: 100px;">Lập trình web</td>
+                    </tr>
+                    <tr>
+                        <td>Khoa:</td>
+                        <td id="faculty" style="padding-left: 100px;">Công nghệ thông tin</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="assets/js/welcome.js"></script>
+</html>

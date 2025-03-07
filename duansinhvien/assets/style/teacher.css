@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "roboto",sans-serif;
+    color:#ABBED7 ;
+    background-color: #ABBED7;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+.box {
+    width: 230px; 
+    height: 100px;
+    background: linear-gradient(to right, #add8e6, hsl(240, 56%, 53%));
+    border-top-right-radius: 50px; 
+    border-bottom-right-radius: 50px;
+    padding: 20px; 
+    color: white; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+.boder{
+    border-radius:50px;
+    width: 98vw;
+    height: 99vh;
+    background-color: #f0f0f0;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-top: 39px;
+}
+
+.logo span{
+    color:black;
+    font-weight: 700;
+}
+.search{
+    display: flex; 
+    align-items: center; 
+    border: 1px solid #ccc; 
+    border-radius: 20px; 
+    padding: 5px;
+    margin-left: 300px;
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+    width:300px;
+}
+.search i{
+    color: #333; 
+    margin-left: 10px; 
+    cursor: pointer; 
+}
+.search input{
+    border: none; 
+    outline: none; 
+    flex: 1;
+    padding: 5px; 
+    
+}
+.info{
+    padding-left: 300px;
+    
+   
+}
+.info button{
+    border: none;
+    padding-left: 10px;
+}
+.info span{
+    vertical-align: super;
+    color: #2382ad;
+    font-size: 25px;
+    font-weight: 600;
+}
+.banner{
+    display: flex;
+
+}
+#home  a{
+    color: #484ACB;
+    font-weight: 600;
+}
+.menu{
+    position: fixed;
+    padding-left: 60px;
+    padding-top:60px;
+    text-align:start ;
+    display: flex;
+    justify-content: space-between;
+}
+.menu nav ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.menu nav ul li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+    font-size: 21px;
+    text-align: start;
+}
+
+.menu nav ul li a {
+    line-height:30px;
+    flex-grow: 1; 
+    padding-left: 10px; 
+    text-decoration: none; 
+    color: #2382ad;
+   
+}
+
+.menu nav ul li i {
+    font-size: center;
+    width: 22.5px;
+    height: 20px;
+    font-size: 20px; 
+    color: #ABBED7;
+}
+.box_menu{
+    border:none;
+    color: #2382ad;
+}
+
+.teacher_container{
+    margin-left: 500px;
+    height: calc(100vh - 150px);
+    overflow-y: auto;
+    overflow-x: hidden;
+   
+}
+.teacher_container::-webkit-scrollbar {
+    display: none; 
+}
+.teacher_container{
+    
+}
+.teacher_container h1{
+    background: linear-gradient(45deg,blue,red);
+    color: transparent;
+    -webkit-background-clip: text ;
+    padding:20px;
+}
+.teacher_list{
+    
+}
+.teacher_box{
+    background-color: #ABBED7;
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
+    width: 700px;
+    height: 140px;
+    border-radius: 20px;
+}
+.teacher_img img{
+   
+    border-radius: 90px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.teacher_info {
+    margin-right: 10px;
+}
+.teacher_info h4 {
+    color: #333;
+    font-size: 20px;
+}
